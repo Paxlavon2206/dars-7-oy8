@@ -1,7 +1,12 @@
-import Image from "next/image";
 
-export default function Home() {
+import React from "react";
+
+const Page = () => {
   return (
-   <div></div>
+    <div>
+      <h1>Todo List Page</h1>
+    </div>
   );
-}
+};
+
+export default Page;
